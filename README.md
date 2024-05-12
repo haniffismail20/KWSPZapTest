@@ -28,16 +28,38 @@ www.kwsp.gov.my is a government agency responsible for managing retirement savin
 
 Due to its nature of handling fund, withdrawal request and storing Malaysian's data, it is important for KWSP to have a strong and trusted security to prevent any unwanted issues such as data breached, unauthorized withdrawal etc. Therefore, our case study purpose is to do security testing on www.kwsp.gov.my to see if the website is secure.
 
-## Identify Vulnerabilities
-|Alert                               |Alert Stage|
-|------------------------------------|-----------|
-|Hash Disclosure - MD5 Crypt         |High       |
-|SQL Injection - Oracle - Time Based |High       |
-|CSP: Wildcard Directive             |Medium     |
-|CSP: Script-src unsafe inline       |Medium     |
-|CSP: Style-src unsafe inline        |Medium     |
-|CSP: Header not set                 |Medium     |
 
-## Evaluate Vulnerabilities
+|Alert                                        |Alert Stage|
+|---------------------------------------------|-----------|
+|Hash Disclosure - MD5 Crypt                  |High       |
+|Hash Disclosure - MSha256 Crypt              |High       |
+|SQL Injection - Oracle - Time Based          |High       |
+|CSP: Wildcard Directive                      |Medium     |
+|CSP: Script-src unsafe inline                |Medium     |
+|CSP: Style-src unsafe inline                 |Medium     |
+|CSP: Header not set                          |Medium     |
+|Information Disclosure - Suspicious Comment  |Medium     |
 
-## Prevent Vulnerabilities
+## Result of Testing
+### Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc.
+
+### Hash Disclosure
+
+### CSRF
+
+### Secured Cookies
+
+### CSP
+
+### JS Library
+
+### HTTPS Implementation (TLS/SSL)
+
+### Cookie Poisoning
+
+### Potential XSS
+
+### Information Disclosure
+
+
+
